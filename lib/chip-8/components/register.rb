@@ -1,7 +1,9 @@
-class Register
-  attr_accessor :register
+module Components
+  class Register
+    attr_accessor :register
 
-  def initialize
-
+    def initialize
+      @register = Array.new(16, 0)
+    end
   end
 end
